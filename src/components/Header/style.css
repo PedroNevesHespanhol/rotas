@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #93bcb4;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*
+    se colocar a + a indica que se tiver
+    mais de duas tags 'a' é para aplicar
+    a propriedade definida, no caso uma
+    margem entre elas
+*/
+header a + a {
+    margin-left: 10px;
+}

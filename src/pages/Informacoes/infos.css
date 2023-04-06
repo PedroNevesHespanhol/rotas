@@ -1,0 +1,12 @@
+.contato-infos {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    font-size: 18px;
+
+}
+
+.contato-infos div + div {
+    margin-left: 14px;
+}
+
