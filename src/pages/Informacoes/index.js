@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import './infos.css';
 
-function Informacoes() {
+function Contato() {
     
     const { id } = useParams();
 
@@ -20,4 +20,4 @@ function Informacoes() {
 
 }
 
-export default Informacoes;
+export default Contato;
